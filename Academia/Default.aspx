@@ -79,7 +79,6 @@
         </div>
         <!-- /.modal-dialog -->
     </div>
-    <!-- /.modal -->
 
     <footer id="footer">
         <div class="container">
