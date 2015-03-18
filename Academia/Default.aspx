@@ -77,7 +77,6 @@
             </div>
             <!-- /.modal-content -->
         </div>
-        <!-- /.modal-dialog -->
     </div>
 
     <footer id="footer">
