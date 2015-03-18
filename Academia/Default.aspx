@@ -11,7 +11,7 @@
 
     <title>Projeto Academia</title>
 
-    <!-- Bootstrap core CSS -->
+    
     <link href="Content/bootstrap.min.css" rel="stylesheet">
       <link href="Content/bootstrap.css" rel="stylesheet">
       <link href="Content/bootstrap.css.map" rel="stylesheet">
