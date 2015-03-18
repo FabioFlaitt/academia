@@ -13,10 +13,10 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet">
     <link href="Content/bootstrap.css" rel="stylesheet">
     <link href="Content/bootstrap.css.map" rel="stylesheet">
-    <link href="Content/bootstrap-theme.css" rel="stylesheet">
-    <link href="Content/bootstrap.theme.css.map" rel="stylesheet">
+    <!--<link href="Content/bootstrap-theme.css" rel="stylesheet">
+    <link href="Content/bootstrap.theme.css.map" rel="stylesheet"> 
 
-    <link href="CSS/estilo.css" rel="stylesheet">
+    <link href="CSS/estilo.css" rel="stylesheet">-->
 
     <script src="JS/showPassword.js"></script>
 </head>
@@ -25,17 +25,17 @@
     <section id="login">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-md-6 col-md-offset-3">
                     <div class="form-wrap">
-                        <h1>Entrar com sua conta e-mail/senha</h1>
+                        <h1>Login</h1>
                         <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
                             <div class="form-group">
                                 <label for="email" class="sr-only">Email</label>
-                                <input type="email" name="email" id="email" class="form-control" placeholder="seunome@exemplo.com">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="digite seu e-mail aqui">
                             </div>
                             <div class="form-group">
                                 <label for="key" class="sr-only">Password</label>
-                                <input type="password" name="key" id="key" class="form-control" placeholder="Senha">
+                                <input type="password" name="key" id="key" class="form-control" placeholder="digite sua senha aqui">
                             </div>
                             <div class="checkbox">
                                 <span class="character-checkbox" onclick="showPassword()"></span>
@@ -87,5 +87,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
 </body>
 </html>
