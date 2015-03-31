@@ -13,5 +13,6 @@ namespace AcademiaMVC.Controllers
         {
             return View();
         }
+
     }
 }
